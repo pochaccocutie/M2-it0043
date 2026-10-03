@@ -14,7 +14,7 @@
   --font-xl: 32px;
 }
 
-{
+* {
     box-sizing: border-box; 
 }
 
