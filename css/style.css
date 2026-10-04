@@ -39,9 +39,9 @@ h2 { font-size: var(--font-lg); }
 p  { margin-bottom: var(--space-md); }
 
 nav {
-  background: #154e4a;
+  background: var(--primary);
   padding: var(--space-md);
-  border-radius: 8px;
+  border-radius: var(--space-sm);
   margin-bottom: var(--space-lg);
 }
 
@@ -68,14 +68,14 @@ nav a:focus {
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 20px;
+  border-radius: var(--space-lg);
+  padding: var(--space-lg);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.10);
   margin-bottom: var(--space-md);
 }
 
 .btn {
-  padding: 12px 20px;
+  padding: var(--space-sm) var(--space-md);
   border: 0;
   border-radius: 999px;
   background: var(--primary);
